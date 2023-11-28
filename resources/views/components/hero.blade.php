@@ -1,5 +1,5 @@
-<section class="flex justify-center items-center lg:mt-28">
-    <div class="text-left flex space-x-8">
+<section class="flex justify-center items-center">
+    <div class="text-left flex space-x-12">
         <div class="lg:mt-0 relative mx-auto bg-gradient-to-b from-teal-500 overflow-hidden w-64 h-64 lg:h-72 lg:w-72 rounded-full">
             <img
                 src="/assets/me.jpg"
@@ -11,7 +11,7 @@
 
         <div class="my-auto">
             <div class="flex justify-start">
-                <h2 class="pt-8 py-4 lg:py-6 leading-8 lg:leading-8 font-bold text-transparent text-4xl lg:text-7xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+                <h2 class="pt-8 py-4 lg:py-8 leading-8 lg:leading-8 font-bold text-transparent text-4xl lg:text-7xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                     Alberto Rosas
                 </h2>
             </div>
@@ -22,7 +22,7 @@
                 </div>
 
                 {{--icons--}}
-                <div class="hidden lg:flex justify-start space-x-6 mt-4">
+                <div class="hidden lg:flex text-start space-x-8 mt-6">
                     <div>
                         <svg
                             class="text-blue-400 fill-white cursor-pointer h-10 w-10"
