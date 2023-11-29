@@ -3,8 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Software Engineer Alberto Rosas's site.">
+    <meta name="keywords" content="software engineer, consultant, software architect, web security">
+    <meta name="author" content="Alberto Rosas">
 
     <title>@yield('title', 'Welcome') | Alberto Rosas</title>
+
+    @yield('meta')
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">

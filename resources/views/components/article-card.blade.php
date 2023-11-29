@@ -11,7 +11,7 @@
                 {{ $title }}
             </p>
             <blockquote>
-                <p class="mt-2 text-lg text-start md:text-center font-medium text-gray-400">
+                <p class="mt-2 text-lg text-start font-medium text-gray-400">
                     “{{ $excerpt }}”
                 </p>
             </blockquote>
