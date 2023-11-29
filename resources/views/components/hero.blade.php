@@ -2,7 +2,7 @@
     <div class="text-center lg:text-left md:flex space-x-12">
         <div class="lg:mt-0 relative mx-auto bg-gradient-to-b from-teal-500 overflow-hidden h-36 w-36 md:h-52 md:w-52 lg:h-72 lg:w-72 rounded-full">
             <img
-                src="/assets/me.jpg"
+                src="/assets/me.webp"
                 class="object-center object-cover rounded-full w-full h-full"
                 alt="Alberto Rosas"
                 loading="lazy"
