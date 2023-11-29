@@ -1,17 +1,17 @@
-<figure class="md:flex rounded-xl p-8 md:p-0 hover:bg-slate-800">
-    <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
-        <p class="text-sm font-medium text-purple-900 text-start">
+<figure class="md:flex rounded-xl px-8 py-4 md:p-0 hover:bg-slate-800">
+    <div class="md:pt-6 md:p-8 text-center md:text-left space-y-4">
+        <div class="text-sm font-medium text-purple-900 text-start space-y-3 space-x-3">
             @foreach ($tags as $tag)
-                <span class="mr-2 rounded-lg bg-purple-400 py-1 px-2">{{ $tag }}</span>
+                <span class="rounded-lg bg-purple-400 py-1 px-2 my-2">{{ $tag }}</span>
             @endforeach
-        </p>
+        </div>
 
         <a href="{{ $link }}" class="mt-2 block" target="_blank">
             <p class="text-xl font-semibold text-gray-300 text-start">
                 {{ $title }}
             </p>
             <blockquote>
-                <p class="mt-2 text-lg font-medium text-gray-400">
+                <p class="mt-2 text-lg text-start md:text-center font-medium text-gray-400">
                     “{{ $excerpt }}”
                 </p>
             </blockquote>

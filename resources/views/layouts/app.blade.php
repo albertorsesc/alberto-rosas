@@ -12,13 +12,12 @@
     @vite('resources/css/app.css')
 </head>
 <body class="antialiased">
-<div class="relative sm:p-8 p-4 bg-[#13131a] min-h-screen flex flex-row">
-    <div class="sm:flex hidden mr-10 ml-6 my-auto">
-        {{--Sidebar--}}
+<div class="relative sm:p-8 p-4 bg-[#13131a] min-h-screen sm:flex flex-row">
+    <div class="sm:flex mr-10 lg:ml-6 my-auto">
         @include('components.sidebar')
     </div>
 
-    <div class="flex-1 max-w-[1280px] mx-auto my-auto sm:pr-5">
+    <div class="flex-1 max-w-[1280px] mx-auto sm:my-auto sm:pr-5">
         @yield('content')
     </div>
 </div>

@@ -4,15 +4,15 @@
 
 @section('content')
     <section class="w-full lg:w-5/6 mx-auto flex justify-center items-center">
-        <div class="text-center">
+        <div class="text-center mt-20 sm:mt-2">
             <div class="flex justify-center lg:justify-start">
-                <h3 class="leading-8 font-extrabold text-transparent text-5xl lg:text-7xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+                <h3 class="leading-8 font-extrabold pb-6 md:pb-4 text-transparent text-4xl md:text-5xl lg:text-7xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                     Blog
                 </h3>
             </div>
 
-            <div class="my-auto space-y-4">
-                <div class="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-2">
+            <div class="space-y-4 mt-6 md:mt-0">
+                <div class="mx-auto mt-4 md:mt-8 max-w-lg gap-5 lg:max-w-none lg:grid lg:grid-cols-2">
                     @include('components.article-card', [
                         'tags' => ['Laravel', 'Testing'],
                         'title' => 'Building an API using TDD in Laravel',

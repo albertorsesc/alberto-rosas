@@ -1,6 +1,6 @@
-<section class="flex justify-center items-center">
-    <div class="text-left flex space-x-12">
-        <div class="lg:mt-0 relative mx-auto bg-gradient-to-b from-teal-500 overflow-hidden w-64 h-64 lg:h-72 lg:w-72 rounded-full">
+<section class="md:flex md:justify-center items-center mt-40 sm:mt-0">
+    <div class="text-center lg:text-left md:flex space-x-12">
+        <div class="lg:mt-0 relative mx-auto bg-gradient-to-b from-teal-500 overflow-hidden h-36 w-36 md:h-52 md:w-52 lg:h-72 lg:w-72 rounded-full">
             <img
                 src="/assets/me.jpg"
                 class="object-center object-cover rounded-full w-full h-full"
@@ -9,23 +9,23 @@
             />
         </div>
 
-        <div class="my-auto">
-            <div class="flex justify-start">
-                <h2 class="pt-8 py-4 lg:py-8 leading-8 lg:leading-8 font-bold text-transparent text-4xl lg:text-7xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+        <div class="md:my-auto">
+            <div class="sm:flex sm:justify-center lg:justify-start">
+                <h2 class="pr-12 md:pr-0 lg:pt-4 py-4 lg:py-8 leading-8 lg:leading-8 font-bold text-transparent text-4xl lg:text-7xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                     Alberto Rosas
                 </h2>
             </div>
 
-            <div>
-                <div class="hidden lg:block text-xl lg:text-2xl font-medium text-gray-500 dark:text-gray-500">
+            <div class="">
+                <div class="-ml-4 sm:-ml-0 text-start text-xs sm:text-base md:text-lg lg:text-2xl font-medium text-gray-500 dark:text-gray-500">
                     Consultant &bull; Software Architect &bull; Software Engineer
                 </div>
 
                 {{--icons--}}
-                <div class="hidden lg:flex text-start space-x-8 mt-6">
+                <div class="sm:ml-10 md:ml-0 flex sm:text-start space-x-6 sm:space-x-8 mt-6">
                     <div>
                         <svg
-                            class="text-blue-400 fill-white cursor-pointer h-10 w-10"
+                            class="text-blue-400 fill-white cursor-pointer h-8 w-8 md:h-10 md:w-10"
                             xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink"
                             viewBox="0 0 1024 1024"
@@ -33,12 +33,12 @@
                     </div>
 
                     <div>
-                        <svg class="text-blue-500 cursor-pointer h-10 w-10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2c-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3c94 0 111.28 61.9 111.28 142.3V448z" fill="currentColor"></path></svg>
+                        <svg class="text-blue-500 cursor-pointer h-8 w-8 md:h-10 md:w-10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2c-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3c94 0 111.28 61.9 111.28 142.3V448z" fill="currentColor"></path></svg>
                     </div>
 
                     <div>
                         <svg
-                            class="text-gray-300 cursor-pointer h-10 w-10"
+                            class="text-gray-300 cursor-pointer h-8 w-8 md:h-10 md:w-10"
                             xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink"
                             viewBox="0 0 24 24"
@@ -47,7 +47,7 @@
 
                     <div>
                         <svg
-                            class="text-red-400 cursor-pointer h-10 w-10"
+                            class="text-red-400 cursor-pointer h-8 w-8 md:h-10 md:w-10"
                             xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink"
                             viewBox="0 0 512 512"
@@ -56,7 +56,7 @@
 
                     <div>
                         <svg
-                            class="text-teal-500 cursor-pointer h-10 w-10"
+                            class="text-teal-500 cursor-pointer h-8 w-8 md:h-10 md:w-10"
                             xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink"
                             viewBox="0 0 24 24"
