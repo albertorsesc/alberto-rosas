@@ -2,9 +2,13 @@
     <div class="text-center lg:text-left md:flex space-x-12">
         <div class="lg:mt-0 relative mx-auto bg-gradient-to-b from-teal-500 overflow-hidden h-36 w-36 md:h-52 md:w-52 lg:h-72 lg:w-72 rounded-full">
             <img
-                src="/assets/me.webp"
-                class="object-center object-cover rounded-full w-full h-full"
+                srcset="/assets/me-400w.avif 400w, /assets/me-600w.avif 600w, /assets/me-800w.avif 800w, /assets/me-1000w.avif 1000w, /assets/me-1200w.avif 1200w, /assets/me-1600w.avif 1600w, /assets/me-2000w.avif 2000w"
+                sizes="(max-width: 400px) 400px, (max-width: 600px) 600px, (max-width: 800px) 800px, (max-width: 1000px) 1000px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (min-width: 1601px) 2000px"
+                src="{{ asset('assets/me.webp') }}"
                 alt="Alberto Rosas"
+                width="3456"
+                height="4608"
+                class="object-cover object-center absolute inset-0 w-full h-full"
                 loading="lazy"
             />
         </div>
